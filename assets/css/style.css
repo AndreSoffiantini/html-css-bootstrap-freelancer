@@ -17,6 +17,10 @@ img {
     max-height: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /* #endregion Common */
 
@@ -31,8 +35,6 @@ img {
     background-color: aquamarine;
     height: 100%;
 }
-
-.debug #jumbotron {}
 
 
 /* #endregion Debug */
@@ -70,7 +72,6 @@ img {
 
 #jumbotron {
     background-color: var(--color-bg-light-green);
-    height: 35rem;
 }
 
 
@@ -98,3 +99,33 @@ img {
 
 
 /* #endregion site_main */
+
+
+/* #region site_footer */
+
+
+/* #region site_footer_top */
+
+#site_footer_top {
+    background-color: var(--color-bg-footer-top);
+}
+
+#site_footer_top a {
+    color: var(--color-bg-light-green);
+}
+
+
+/* #endregion site_footer_top */
+
+
+/* #region site_footer_bottom */
+
+#site_footer_bottom {
+    background-color: var(--color-header-hr-star-footer-bottom);
+}
+
+
+/* #endregion site_footer_bottom */
+
+
+/* #endregion site_footer */
