@@ -1,9 +1,47 @@
-.debug [class^="col"] {
-    height: 100%;
-    border: 1px solid white;
+/* #region Common */
+
+:root {
+    --color-header-hr-star-footer-bottom: #2C3E50;
+    --color-bg-light-green: #1ABC9C;
+    --color-title-no-bg: #333333;
+    --color-bg-footer-top: #3A546D;
+    --color-border-bottom: #CCCCCC;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
     max-width: 100%;
     max-height: 100%;
 }
+
+
+/* #endregion Common */
+
+
+/* #region Debug */
+
+.debug .row {
+    height: 100px;
+}
+
+.debug [class^="col"] {
+    background-color: aquamarine;
+    height: 100%;
+}
+
+
+/* #endregion Debug */
+
+
+/* #region site_header */
+
+#site_header {
+    height: 5rem;
+    background-color: var(--color-header-hr-star-footer-bottom);
+}
+
+
+/* #endregion site_header */
