@@ -87,4 +87,14 @@ img {
 /* #endregion about */
 
 
+/* #region contact */
+
+#contact ul>li>.btn {
+    background-color: var(--color-bg-light-green);
+}
+
+
+/* #endregion contact */
+
+
 /* #endregion site_main */
