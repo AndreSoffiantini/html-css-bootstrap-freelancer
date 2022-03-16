@@ -119,6 +119,11 @@ a {
     color: var(--color-bg-light-green);
 }
 
+#site_footer_top .btn.rounded-circle {
+    height: 3rem;
+    width: 3rem;
+}
+
 
 /* #endregion site_footer_top */
 
