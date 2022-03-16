@@ -32,6 +32,8 @@ img {
     height: 100%;
 }
 
+.debug #jumbotron {}
+
 
 /* #endregion Debug */
 
@@ -45,3 +47,20 @@ img {
 
 
 /* #endregion site_header */
+
+
+/* #region site_main */
+
+
+/* #region jumbotron */
+
+#jumbotron {
+    background-color: var(--color-bg-light-green);
+    height: 25rem;
+}
+
+
+/* #endregion jumbotron */
+
+
+/* #endregion site_main */
