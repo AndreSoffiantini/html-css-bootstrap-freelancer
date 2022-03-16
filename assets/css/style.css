@@ -61,6 +61,12 @@ a {
     background-color: var(--color-header-hr-star-footer-bottom);
 }
 
+#site_header .list-group-item {
+    background-color: var(--color-header-hr-star-footer-bottom);
+    color: white;
+    border: transparent;
+}
+
 
 /* #endregion site_header */
 
