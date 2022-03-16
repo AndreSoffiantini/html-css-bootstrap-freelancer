@@ -94,6 +94,11 @@ a {
     background-color: var(--color-bg-light-green);
 }
 
+#contact #message-input-space {
+    padding-top: 1rem;
+    padding-bottom: 6rem;
+}
+
 
 /* #endregion contact */
 
